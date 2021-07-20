@@ -1,0 +1,20 @@
+
+.user-profile{
+    display: flex;
+}
+.user-profile u{
+    flex: 1;
+}
+.logout-action{
+    margin-top: 10px;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.username-text{
+    margin:-5px 11px;
+}
+.username-text p{
+    margin-bottom: 0;
+    line-height: 13px;
+}

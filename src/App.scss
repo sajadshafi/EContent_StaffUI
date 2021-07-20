@@ -1,0 +1,169 @@
+$indigo: #6422cf;
+$blue: #007cbe;
+$purple: #9e008f;
+$pink: #92114d;
+$red: #b40000;
+$orange: #8f4508;
+$yellow: #d6a30a;
+$green: #09641e;
+$teal: #0ca175;
+$cyan: #17a2b8;
+
+$font-size-base: 0.9rem;
+$btn-padding-y: 0.1rem;
+$btn-padding-x: 0.4rem;
+
+$spacer: 1rem;
+$spacers: (
+  1: (
+    $spacer * 0.5,
+  ),
+  2: $spacer,
+  3: (
+    $spacer * 1.5,
+  ),
+  4: (
+    $spacer * 2,
+  ),
+  5: (
+    $spacer * 3,
+  ),
+  6: (
+    $spacer * 5,
+  ),
+);
+$border-radius: 0.1rem;
+
+@import "~bootstrap/scss/bootstrap.scss";
+@import "~@sweetalert2/theme-borderless/borderless.scss";
+
+html {
+  margin: 0;
+}
+.container-fluid-custom {
+  width: 100%;
+  padding-right: 1px;
+  padding-left: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+.navbar {
+  padding: 0 !important;
+}
+.navbar-nav a {
+  border-right: 1px solid #9ed5c2;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  color: white;
+  font-weight: 600;
+}
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 1rem;
+}
+.card-header {
+  padding: 0.5rem 1.25rem;
+}
+.alert-danger {
+  background-color: #fadfdf;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #00766e;
+}
+
+.nav-link-active {
+  background-color: #00766e;
+}
+.gray-800 {
+  background-color: #044d50;
+}
+
+.gray-700 {
+  background-color: #023436;
+}
+
+.gray-600 {
+  background-color: $gray-600;
+}
+
+.gray-500 {
+  background-color: #e9e9e9;
+}
+.color-1 {
+  background-color: #03b5aa;
+}
+.color-2 {
+  background-color: #023436;
+}
+.color-3 {
+  background-color: #a30016;
+}
+.color-4 {
+  background-color: #007cbe;
+}
+.color-5 {
+  background-color: #00bfb3;
+}
+
+.content-wrapper {
+  height: 84vh;
+  display: flex;
+}
+.loaderWrapper {
+  height: 68vh;
+  margin-top: 1rem;
+}
+
+.main-content {
+  flex: 18;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.loader-wrapper {
+  height: 100%;
+  background-color: #cacaca;
+}
+
+.loader-wrapper div {
+  background: none !important;
+  color: #000;
+  font-weight: 600;
+}
+.breadcrumb-wrapper {
+  width: 100%;
+}
+
+.breadcrumb-wrapper .breadcrumb {
+  padding: 0.2rem 0.5rem;
+}
+
+.navbar-brand {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  margin-right: 0;
+}
+.error-box {
+  width: 50%;
+  margin: auto;
+  padding: 3rem;
+}
+.error-box h1 {
+  font-size: 3.5rem;
+}
+
+.error-box a {
+  padding: 0.3rem 1rem;
+}
+.navbar-bar-brand {
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%, 0% 50%);
+  background-color: #b40000;
+  font-size: 0.9rem;
+  border: 3px solid #b40000;
+}

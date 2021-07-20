@@ -1,0 +1,7 @@
+.border-box {
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+.p-checkbox {
+  margin-bottom: 5px;
+}
